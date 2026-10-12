@@ -159,6 +159,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# Generated pipeline data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
 # Spyder project settings
 .spyderproject
 .spyproject
